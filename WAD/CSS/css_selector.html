@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS SELECTOR</title>
+	<style type="text/css">
+		p{
+			text-align: center;
+			text-decoration: underline;
+			border-style: double;
+		}
+		#para{
+			text-align: left;
+			text-decoration: overline;
+			background: pink;
+			border-style: dotted;
+		}
+		.text{
+			text-align: right;
+			border-color: blue;
+			border-style: solid;
+		}
+		*{
+			color: red;
+		}
+		h1,h2,h4{
+			text-align: left;
+			color: green;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<h1>CSS SELECTORS</h1>
+	<p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+	<p>Simple selectors (select elements based on name, id, class)<br>
+Combinator selectors (select elements based on a specific relationship between them)<br>
+Pseudo-class selectors (select elements based on a certain state)<br>
+Pseudo-elements selectors (select and style a part of an element)<br>
+Attribute selectors (select elements based on an attribute or attribute value)</p>
+<h2>CSS ID SELECTOR</h2>
+<p id=para>The id selector uses the id attribute of an HTML element to select a specific element.<br>
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+<h2>CSS CLASS SELECTOR</h2>
+<p class="text">The class selector selects HTML elements with a specific class attribute.</p>
+
+<h4 class="text">To select elements with a specific class, write a period (.) character, followed by the class name.</h4>
+<h2>CSS UNIVERSAL SELECTOR</h2>
+<p>The universal selector (*) selects all HTML elements on the page.</p>
+<h2>CSS GROUPING SELECTOR</h2>
+<p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+h3{
+	color: #154360;
+	text-transform: uppercase;
+	word-spacing: 5px;
+	text-decoration: underline;
+	font-style: oblique;
+}
+#head{
+	background-color: azure;
+}
+#lunch{
+	background-color: #e8daef;
+}
+#wad{
+	background-color: #9b59b6;
+}

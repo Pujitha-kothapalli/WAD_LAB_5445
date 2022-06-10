@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Link Demo</title>
+	<style type="text/css"> 
+		body{
+			margin: 40px;
+		}
+		#link2{
+			color: red;
+			text-decoration: none;
+		}
+		/*a.class_name:state
+		#id_name:state*/
+		#link2:link{
+			color: green;
+			text-decoration: none;
+		}
+		#link3{
+			border-style: solid;
+			border-color: red;
+			padding: 5px;
+			text-decoration: none;
+		}
+		#link4{
+			border-style: solid;
+			border-color: red;
+			padding: 5px;
+			background: hotpink;
+			text-decoration: none;	
+		}
+		#link5{
+			border-style: double;
+			border-color: black;
+			padding: 5px;
+			background: skyblue;
+			text-decoration: none;
+		}
+		#link4:hover{
+			border-color: yellow;
+			text-decoration: underline;
+			color: white;
+		}
+		ol{
+			background-color: hotpink;
+			color: yellow;
+		}
+		ul{
+			background-color: yellow;
+			color: blue;
+		}
+		ol li{
+			background-color: deepskyblue;
+			padding: 5px;
+		}
+		ul li{
+			background-color: hotpink;
+			margin: 10px;
+			padding: 5px;
+		}
+		a:first-child{
+			color: darkgreen;
+			background-color: yellow;
+		}
+		p:first-child{
+			color: darkorange;
+		}
+		p::first-line{
+			color: darkorange;
+		}
+		p::selection{
+			color: darkviolet;
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+     <a href="#" id="link1">Link1</a> &nbsp;&nbsp;
+     <a href="#" id="link2">Link2</a>
+     <a href="#" id="link3">Link3</a>
+     <a href="#" id="link4">Link4</a>
+     <a href="#" id="link5">Link5</a>
+
+     <h1>DEMO ON CSS LIST</h1>
+     <ol>
+     	<li>operating system</li>
+     	<li>dsp</li>
+     	<li>dm</li>
+     	<li>dbms</li>
+     	<li>eng</li>
+     </ol>
+     <ul>
+     	<li>wad</li>
+     	<li>dsp</li>
+     	<li>dbms</li>
+     	<li>se</li>
+     </ul>
+     <div>
+     	<a href="#" id="click">Link3</a>
+     	<a href="#" id="here">Link4</a>
+     	<p>testing p1 An HTML form is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc.<br>An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc. .</p>
+     	<p>testing p2</p>
+     </div>
+</body>
+</html>
