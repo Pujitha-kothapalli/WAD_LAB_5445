@@ -1,0 +1,25 @@
+h3{
+	color: forestgreen;
+	text-align: justify;
+	text-transform: uppercase;
+	text-indent: 100px;
+	word-spacing: 20px;
+	line-height: 50px;
+	direction: ltr;
+	text-shadow:1px 1px;
+	font-style: italic;
+}
+h2{
+	text-decoration: underline;
+	font-weight: bold;
+	color: red;
+}
+body{
+	margin-left: 80px;
+	margin-right:80px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border: solid ;
+	padding: 50px;
+
+}
